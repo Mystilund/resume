@@ -1,13 +1,20 @@
 import React from 'react'
 import Navbar from './blocks/Navbar'
+import { HashRouter } from 'react-router-dom'
+import { AppProvider } from './contexts/AppContext'
+import PageManager from './pages/PageManager'
 
 const App = () => {
   return (
     <div className="app">
-      <Navbar />
-      <div className="page-content">
-        <p>things</p>
-      </div>
+      <AppProvider>
+        <HashRouter basename='/'>
+          <Navbar />
+          <div className="page-content">
+            <PageManager />
+          </div>
+        </HashRouter>
+      </AppProvider>
     </div>
   )
 }
