@@ -1,8 +1,35 @@
 .navbar {
   width: 300px;
-  padding: 10px;
-
+  border-right: #999 1px solid;
+  
   ul {
+    padding: 30px 0;
     list-style-type: none;
+    margin: 0;
+  }
+
+  li {
+    border-left: 0px solid darken($backgroundColor, 5%);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    transition: border-left-width 0.3s ease-in;
+
+    &.active a {
+      color: $fontColor;
+    }
+
+    &:hover {
+      border-left-width: 20px;
+      background: darken($backgroundColor, 2%);
+
+      .animated-text .hoverTxt {
+        background: darken($backgroundColor, 2%);
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 }

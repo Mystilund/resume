@@ -11,7 +11,9 @@ const App = () => {
         <HashRouter basename='/'>
           <Navbar />
           <div className="page-content">
-            <PageManager />
+            <div className="page-container">
+              <PageManager />
+            </div>
           </div>
         </HashRouter>
       </AppProvider>

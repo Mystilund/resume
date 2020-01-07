@@ -1,5 +1,5 @@
 .app {
-  background-color: #282c34;
+  background-color: $backgroundColor;
   min-height: 100vh;
   display: flex;
   flex-flow: row;
@@ -7,14 +7,18 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 1vmin);
-  color: white;
+  color: $fontColor;
 
   a {
-    color: #61dafb;
+    color: $blueColor;
   }
 
   .page-content {
     width: 100%;
+
+    .page-container {
+      padding: 20px;
+    }
   }
 
   & > * {

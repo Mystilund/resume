@@ -1,0 +1,39 @@
+.home-page {
+  padding-left: 20px;
+
+  & > .pre-title,
+  & > h1,
+  & > h2,
+  & > .home-description > p {
+    transition: opacity 1.5s ease-in;
+  }
+  .pre-title {
+    color: darken($blueColor, 20%);
+  }
+
+  h1, h2 {
+    margin: .25em 0;
+  }
+
+  h2 {
+    color: lighten($blueColor, 10%);//#8db6be;
+  }
+
+  .home-description {
+    font-size: 0.8em;
+    padding: 40px 0;
+
+    .brand-links {
+      padding-top: 85px;
+      font-size: 2em;
+
+      a {
+        transition: color 0.3s ease-in;
+
+        &:hover {
+          color: $redColor;
+        }
+      }
+    }
+  }
+}
