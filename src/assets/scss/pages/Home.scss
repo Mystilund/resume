@@ -4,7 +4,7 @@
   & > .pre-title,
   & > h1,
   & > h2,
-  & > .home-description > p {
+  & > .home-description > * {
     transition: opacity 1.5s ease-in;
   }
   .pre-title {
@@ -22,6 +22,10 @@
   .home-description {
     font-size: 0.8em;
     padding: 40px 0;
+
+    .looking-for {
+      padding: 40px 0;
+    }
 
     .brand-links {
       padding-top: 85px;

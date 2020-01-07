@@ -27,7 +27,7 @@ const Home = () => {
     <div className="home-page">
       <div className="pre-title">Hi, my name is</div>
       <h1 style={animationState[0]}>Florian Dewulf.</h1>
-      <h2 style={animationState[1]}>I type weird things and it appears on your screen.</h2>
+      <h2 style={animationState[1]}>I type on a black screen and it makes beautiful things in your browser</h2>
       <div className="home-description">
         <p style={animationState[2]}>
           <span>I'm a `Fullstack Web Developper` based in Lille </span>
@@ -43,7 +43,7 @@ const Home = () => {
           <span>, AWS </span>
           <span role="img" aria-label="satellite dish emoji">📡</span>
         </p>
-        <p style={animationState[4]}>
+        <p style={animationState[3]}>
           <span>I </span>
           <span role="img" aria-label="love">🧡</span>
           <span> videogames </span>
@@ -53,6 +53,10 @@ const Home = () => {
           <span> and to travel </span>
           <span role="img" aria-label="coffee emoji">✈</span>
         </p>
+        <div className="looking-for" style={animationState[4]}>
+          <p>I'm looking for a job in a modern Javascript Stack</p>
+          <p>I <u>hate</u> Java, I like Ruby, I can use PHP but it's not what I prefer</p>
+        </div>
         <p style={animationState[5]} className="text-centered brand-links">
           <a href="https://www.github.com/mystilund/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub}/>
