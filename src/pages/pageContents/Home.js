@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
   const [animationState, updateState] = useState(
@@ -54,6 +54,10 @@ const Home = () => {
           <span role="img" aria-label="coffee emoji">✈</span>
         </p>
         <p style={animationState[5]} className="text-centered brand-links">
+          <a href="https://www.github.com/mystilund/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub}/>
+          </a>
+          <span> - </span>
           <a href="https://www.linkedin.com/in/floriandewulf/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin}/>
           </a>
