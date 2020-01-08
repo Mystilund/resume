@@ -12,7 +12,6 @@ const About = () => {
         <i>(it's me)</i>
       </div>
       <SkillBlock />
-      <p>About</p>
     </div>
   )
 }

@@ -17,13 +17,18 @@ const SkillBlock = () => {
       return null
     }
 
+    const generateContent = (skill) => {
+      if (skill.link) {
+        return <a href={skill.link} target="_blank" rel="noopener noreferrer">{skill.label}</a>
+      }
+      return <span>{skill.label}</span>
+    }
+
     return (
-      <div>
-        {
-          skills[currentSkillDisplayed].technos.map((skill, index) => {
-            return <p key={index}><a href={skill.link}>{skill.label}</a></p>
-          })
-        }
+      <div className="techno-list">
+        {skills[currentSkillDisplayed].technos.map((skill, index) => {
+          return (<p key={index}>{generateContent(skill)}</p>)
+        })}
       </div>
     )
   }
@@ -31,7 +36,7 @@ const SkillBlock = () => {
   const generateSkills = () => {
     return skills.map((skill, index) => {
       return (
-        <Skill key={index} index={index} openSkillTab={openSkillTab}>
+        <Skill key={index} index={index} openSkillTab={openSkillTab} isActive={index === currentSkillDisplayed}>
           <span className="skill-name">{skill.label}</span>
           {typeof skill.rank !== 'undefined' ? <SkillRank rank={skill.rank} /> : null }
         </Skill>
@@ -40,9 +45,9 @@ const SkillBlock = () => {
   }
 
   return (
-    <div>
-      <div>{generateSkills()}</div>
-      <div>{getRelatedTechnologies()}</div>
+    <div className="skill-block">
+      <div className="skill-list">{generateSkills()}</div>
+      <div className="technos-container">{getRelatedTechnologies()}</div>
     </div>
   )
 }

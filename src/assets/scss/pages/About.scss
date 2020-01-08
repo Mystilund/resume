@@ -18,4 +18,55 @@
   .profile-picture-subtitle {
     font-size: 0.7em;
   }
+
+  .skill-block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .skill-list {
+      width: 400px;
+
+      .skill-line {
+        &.active,
+        &:hover {
+          background: darken($backgroundColor, 5);
+        }
+
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  
+    .skill-rank {
+      display: inline-block;
+      position: relative;
+      font-size: 0.6em;
+  
+      .rank-stars {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: gold;
+      }
+    }
+
+    .technos-container {
+      width: 400px;
+
+      .techno-list {
+        width: 100%;
+        background: darken($backgroundColor, 5);
+        font-size: 0.8em;
+        padding: 1px 20px;// the 1px is to not have issue with the margin of the p tags
+        box-sizing: border-box;
+        height: 100%;
+      }
+    }
+  }
+
 }

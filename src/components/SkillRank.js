@@ -5,7 +5,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const SkillRank = ({ rank }) => {
   const getStars = (n) => {
-    return Array.from(n).map((_, index) => {
+    return Array.from(Array(n)).map((_, index) => {
       return <FontAwesomeIcon key={index} icon={faStar} />
     })
   }

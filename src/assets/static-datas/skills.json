@@ -8,8 +8,62 @@
         "link": "https://reactjs.org/"
       },
       {
+        "label": "Mocha (+ nyc)",
+        "link": "https://mochajs.org/"
+      },
+      {
+        "label": "Hapi",
+        "link": "https://hapi.dev/"
+      },
+      {
+        "label": "VueJS",
+        "link": "https://vuejs.org/"
+      },
+      {
         "label": "Express",
         "link": "https://expressjs.com/"
+      },
+      {
+        "label": "Yeoman",
+        "link": "https://yeoman.io/"
+      }
+    ]
+  },
+  {
+    "label": "Misc web technologies",
+    "rank": 4,
+    "technos": [
+      {
+        "label": "HTML/CSS",
+        "link": "https://developer.mozilla.org/fr/docs/Web/HTML"
+      },
+      {
+        "label": "Haml",
+        "link": "http://haml.info/"
+      },
+      {
+        "label": "Pug",
+        "link": "https://pugjs.org/api/getting-started.html"
+      },
+      {
+        "label": "Handlebar",
+        "link": "https://handlebarsjs.com/"
+      },
+      {
+        "label": "SASS",
+        "link": "https://sass-lang.com/"
+      },
+      {
+        "label": "MySQL",
+        "link": "https://www.mysql.com/fr/"
+      },
+      {
+        "label": "Responsive design",
+        "link": "https://fr.wikipedia.org/wiki/Site_web_r%C3%A9actif"
+      },
+      {
+        "label": "And I love ergonomy and accessibility, to make a better web",
+        "link": null
       }
     ]
   },
@@ -24,6 +78,103 @@
       {
         "label": "Laravel",
         "link": "https://laravel.com/"
+      },
+      {
+        "label": "Sylius",
+        "link": "https://sylius.com/"
+      }
+    ]
+  },
+  {
+    "label": "Ruby",
+    "rank": 3,
+    "technos": [
+      {
+        "label": "Rake",
+        "link": "https://github.com/ruby/rake"
+      },
+      {
+        "label": "Ruby On Rails",
+        "link": "https://rubyonrails.org/"
+      }
+    ]
+  },
+  {
+    "label": "Sys' admin & Cloud",
+    "rank": 3,
+    "technos": [
+      {
+        "label": "Docker",
+        "link": "https://www.docker.com/"
+      },
+      {
+        "label": "AWS",
+        "link": "https://aws.amazon.com/fr/"
+      },
+      {
+        "label": "Bash",
+        "link": "https://wiki.debian.org/fr/Bash"
+      }
+    ]
+  },
+  {
+    "label": "CI/CD/Automation",
+    "rank": 3,
+    "technos": [
+      {
+        "label": "Travis",
+        "link": "https://travis-ci.com/"
+      },
+      {
+        "label": "Jenkins",
+        "link": "https://jenkins.io/"
+      },
+      {
+        "label": "CodeClimate Quality",
+        "link": "https://codeclimate.com/quality/"
+      }
+    ]
+  },
+  {
+    "label": "Project management",
+    "rank": 2,
+    "technos": [
+      {
+        "label": "Technical analysis",
+        "link": null
+      },
+      {
+        "label": "Task estimation",
+        "link": null
+      },
+      {
+        "label": "Jira",
+        "link": "https://www.atlassian.com/fr/software/jira"
+      }
+    ]
+  },
+  {
+    "label": "Tools & OS",
+    "technos": [
+      {
+        "label": "VSCode",
+        "link": null
+      },
+      {
+        "label": "Windows",
+        "link": null
+      },
+      {
+        "label": "Unix (Debian, Ubuntu, Mint)",
+        "link": null
+      },
+      {
+        "label": "Git",
+        "link": null
+      },
+      {
+        "label": "Slack",
+        "link": null
       }
     ]
   }
