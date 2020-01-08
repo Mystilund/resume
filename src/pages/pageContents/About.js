@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillBlock from '../../blocks/SkillBlock '
+import SkillBlock from '../../blocks/SkillBlock'
 import profilePicture from '../../assets/images/profile.png'
 
 const About = () => {
