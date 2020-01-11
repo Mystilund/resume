@@ -12,6 +12,35 @@ const About = () => {
         <i>(it's me)</i>
       </div>
       <SkillBlock />
+      <hr className="margin-top-50 margin-bot-50" />
+      <h2>Something else ?</h2>
+      <p>Yeah, I can do and I like other things !</p>
+      <ul className="no-bullet">
+        <li>
+          <span role="img" aria-label="love">💛</span>
+          <span> Videogames</span>
+        </li>
+        <li>
+          <span role="img" aria-label="camera emoji">📷</span>
+          <span> Photography</span>
+        </li>
+        <li>
+          <span role="img" aria-label="paintbrush emoji">🖌️</span>
+          <span> Drawing</span>
+        </li>
+        <li>
+          <span role="img" aria-label="music emoji">🎧</span>
+          <span> Music</span>
+        </li>
+        <li>
+          <span role="img" aria-label="video emoji">🎬</span>
+          <span> Series</span>
+        </li>
+        <li>
+          <span role="img" aria-label="meat emoji">🍖</span>
+          <span> Food</span>
+        </li>
+      </ul>
     </div>
   )
 }

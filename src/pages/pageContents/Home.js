@@ -10,17 +10,17 @@ const Home = () => {
   )
 
   useEffect(() => {
+    const indexToUpdate = animationState.findIndex((s) => {
+      return s.opacity === 0
+    })
     setTimeout(() => {
       const newState = [ ...animationState ]
-      const indexToUpdate = animationState.findIndex((s) => {
-        return s.opacity === 0
-      })
 
       if (indexToUpdate !== -1) {
         newState[indexToUpdate] = { opacity: 1 }
         updateState(newState)
       }
-    }, 1800)
+    }, indexToUpdate === 0 ? 500 : 1800)
   }, [ animationState ])
 
   return (

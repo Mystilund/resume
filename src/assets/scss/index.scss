@@ -1,3 +1,8 @@
+@import 'variables.scss';
+@import 'App.scss';
+@import 'Navbar.scss';
+@import './pages';
+
 body {
   margin: 0;
   font-family: 'Roboto Mono', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,10 +17,9 @@ code {
     monospace;
 }
 
-@import 'variables.scss';
-@import 'App.scss';
-@import 'Navbar.scss';
-@import './pages';
+ul.no-bullet {
+  list-style-type: none;
+}
 
 .text-centered {
   text-align: center;
@@ -43,5 +47,20 @@ code {
 
   &:hover .hoverTxt {
     width: 100%;
+  }
+}
+
+@for $i from 1 through 7 {
+  .pad-top-#{$i * 10} {
+    padding-top: #{$i * 10}px;
+  }
+  .pad-bot-#{$i * 10} {
+    padding-bottom: #{$i * 10}px;
+  }
+  .margin-top-#{$i * 10} {
+    margin-top: #{$i * 10}px;
+  }
+  .margin-bot-#{$i * 10} {
+    margin-bottom: #{$i * 10}px;
   }
 }
