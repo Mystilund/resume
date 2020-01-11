@@ -19,33 +19,35 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <ul>
-        <li className={activeClass(HOME_ROUTE)}>
-          <Link to="">
-            <AnimatedText hoverColor="#CC3333">Home</AnimatedText>
-          </Link>
-        </li>
-        <li className={activeClass(ABOUT_ROUTE)}>
-          <Link to="about">
-            <AnimatedText hoverColor="#CC3333">About</AnimatedText>
-          </Link>
-        </li>
-        <li className={activeClass(WORKS_ROUTE)}>
-          <Link to="works">
-            <AnimatedText hoverColor="#CC3333">Works</AnimatedText>
-          </Link>
-        </li>
-        <li className={activeClass(PROJECTS_ROUTE)}>
-          <Link to="projects">
-            <AnimatedText hoverColor="#CC3333">Projects</AnimatedText>
-          </Link>
-        </li>
-        <li className={activeClass(CONTACT_ROUTE)}>
-          <Link to="contact">
-            <AnimatedText hoverColor="#CC3333">Contact</AnimatedText>
-          </Link>
-        </li>
-      </ul>
+      <div className="fixed-container">
+        <ul>
+          <li className={activeClass(HOME_ROUTE)}>
+            <Link to="">
+              <AnimatedText hoverColor="#CC3333">Home</AnimatedText>
+            </Link>
+          </li>
+          <li className={activeClass(ABOUT_ROUTE)}>
+            <Link to="about">
+              <AnimatedText hoverColor="#CC3333">About</AnimatedText>
+            </Link>
+          </li>
+          <li className={activeClass(WORKS_ROUTE)}>
+            <Link to="works">
+              <AnimatedText hoverColor="#CC3333">Works</AnimatedText>
+            </Link>
+          </li>
+          <li className={activeClass(PROJECTS_ROUTE)}>
+            <Link to="projects">
+              <AnimatedText hoverColor="#CC3333">Projects</AnimatedText>
+            </Link>
+          </li>
+          <li className={activeClass(CONTACT_ROUTE)}>
+            <Link to="contact">
+              <AnimatedText hoverColor="#CC3333">Contact</AnimatedText>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }

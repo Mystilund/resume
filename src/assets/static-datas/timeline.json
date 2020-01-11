@@ -1,0 +1,102 @@
+[
+  {
+    "year": 1993,
+    "facts": [
+      {
+        "texts": ["I'm born. What a year !"]
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "facts": [
+      {
+        "texts": [
+          "Graduated in high school !",
+          "Science bachelor degree, option engineer science"
+        ]
+      },
+      {
+        "texts": [
+          "Beginning of my college at {EPITECH}"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "facts": [
+      {
+        "texts": [
+          "Work at Etix Everywhere",
+          "Intern Fullstack Developper"
+        ],
+        "workId": "etix"
+      },
+      {
+        "texts": [
+          "Fourth year at {EPITECH}",
+          "This year is a year in a foreign partner school",
+          "Mine was in the Laval University, Quebec - Canada 🍁"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "facts": [
+      {
+        "texts": [
+          "End of the year in Canada",
+          "IT certificate of Laval University"
+        ]
+      },
+      {
+        "texts": [
+          "Work at Cassiop on the Kimple solution",
+          "Part Time Intern"
+        ],
+        "workId": "kimple"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "facts": [
+      {
+        "texts": [
+          "IT degree of {EPITECH}"
+        ]
+      },
+      {
+        "texts": [
+          "Work at Cassiop on the Kimple solution",
+          "Lead Developper"
+        ],
+        "workId": "kimple"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "facts": [
+      {
+        "texts": [
+          "Work at Oliver'store on Stores-Discount.com",
+          "Fullstack Developper"
+        ],
+        "workId": "olst"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "facts": [
+      {
+        "texts": [
+          "Working with you ?"
+        ]
+      }
+    ]
+  }
+]

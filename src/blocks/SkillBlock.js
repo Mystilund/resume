@@ -4,7 +4,7 @@ import Skill from '../components/Skill'
 import SkillRank from '../components/SkillRank'
 
 const SkillBlock = () => {
-  const [currentSkillDisplayed, updateCurrentSkillDisplayed] = useState(null)
+  const [currentSkillDisplayed, updateCurrentSkillDisplayed] = useState(0)
 
   const openSkillTab = (index) => {
     return () => {

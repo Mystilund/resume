@@ -150,6 +150,10 @@
       {
         "label": "Jira",
         "link": "https://www.atlassian.com/fr/software/jira"
+      },
+      {
+        "label": "UML",
+        "link": "https://en.wikipedia.org/wiki/Unified_Modeling_Language"
       }
     ]
   },
