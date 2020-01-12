@@ -41,11 +41,13 @@ const Works = () => {
 
   useEffect(() => {
     window.addEventListener('wheel', scrolling, { passive: false })
+    window.addEventListener('touchmove', scrolling, { passive: false })
     window.addEventListener('scroll', cancelScroll)
     window.addEventListener('resize', scrollToOffset)
     
     return () => {
       window.removeEventListener('wheel', scrolling)
+      window.removeEventListener('touchmove', scrolling)
       window.removeEventListener('scroll', cancelScroll)
       window.removeEventListener('resize', scrollToOffset)
     }
