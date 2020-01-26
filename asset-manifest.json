@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.e5b3934d.chunk.css",
+    "main.js": "/resume/static/js/main.dddfd7fe.chunk.js",
+    "main.js.map": "/resume/static/js/main.dddfd7fe.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.8997ea85.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.8997ea85.js.map",
+    "static/js/2.c200ace2.chunk.js": "/resume/static/js/2.c200ace2.chunk.js",
+    "static/js/2.c200ace2.chunk.js.map": "/resume/static/js/2.c200ace2.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.c36ae183222278c3e7a3d006d4626470.js": "/resume/precache-manifest.c36ae183222278c3e7a3d006d4626470.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.e5b3934d.chunk.css.map": "/resume/static/css/main.e5b3934d.chunk.css.map",
+    "static/js/2.c200ace2.chunk.js.LICENSE": "/resume/static/js/2.c200ace2.chunk.js.LICENSE",
+    "static/media/etix.jpg": "/resume/static/media/etix.1643d30a.jpg",
+    "static/media/kimple.png": "/resume/static/media/kimple.606d408d.png",
+    "static/media/lundorg.png": "/resume/static/media/lundorg.41d4caaa.png",
+    "static/media/olst.png": "/resume/static/media/olst.a009cb44.png",
+    "static/media/profile.png": "/resume/static/media/profile.1443059b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8997ea85.js",
+    "static/js/2.c200ace2.chunk.js",
+    "static/css/main.e5b3934d.chunk.css",
+    "static/js/main.dddfd7fe.chunk.js"
+  ]
+}
