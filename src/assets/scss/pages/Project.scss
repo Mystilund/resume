@@ -1,0 +1,48 @@
+.project-container {
+  .work-block {
+    display: flex;
+    margin-bottom: 40px;
+
+    .img-work-block {
+      position: relative;
+      background: #00799e;
+      transition: background 0.3s linear;
+
+      &:hover {
+        background: transparent;
+
+        img {
+          opacity: 1;
+        }
+      }
+
+      img {
+        opacity: 0.3;
+        transition: opacity 0.3s linear;
+      }
+
+      .work-title {
+        position: absolute;
+        height: 30px;
+        line-height: 30px;
+        padding: 10px 20px;
+        bottom: -30px;
+        left: 55%;
+        font-size: 16px;
+        font-weight: bold;
+        background: #092c37;
+        color: white;
+      }
+    }
+    .work-description {
+      padding-left: 20px;
+      font-size: 12px;
+      text-align: justify;
+      padding-right: 20px;
+
+      .work-date {
+        text-align: right;
+      }
+    }
+  }
+}

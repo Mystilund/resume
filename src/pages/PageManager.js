@@ -21,6 +21,7 @@ const PageManager = () => {
   )
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     updateState(React.createElement(pageContents[getRightPage(currentRoute)]))
   }, [currentRoute])
 

@@ -5,7 +5,7 @@ import AnimatedText from '../components/AnimatedText'
 import {
   HOME_ROUTE,
   ABOUT_ROUTE,
-  WORKS_ROUTE,
+  TIMELINE_ROUTE,
   PROJECTS_ROUTE,
   CONTACT_ROUTE
 } from '../constants/routeConstants'
@@ -31,9 +31,9 @@ const Navbar = () => {
               <AnimatedText hoverColor="#CC3333">About</AnimatedText>
             </Link>
           </li>
-          <li className={activeClass(WORKS_ROUTE)}>
-            <Link to="works">
-              <AnimatedText hoverColor="#CC3333">Works</AnimatedText>
+          <li className={activeClass(TIMELINE_ROUTE)}>
+            <Link to="timeline">
+              <AnimatedText hoverColor="#CC3333">Timeline</AnimatedText>
             </Link>
           </li>
           <li className={activeClass(PROJECTS_ROUTE)}>
