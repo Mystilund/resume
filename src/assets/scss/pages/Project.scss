@@ -46,3 +46,17 @@
     }
   }
 }
+
+@media screen and (max-width: $tabletBreakpoint) {
+  .project-container {
+    .work-block {
+      display: block;
+    }
+    .img-work-block {
+      text-align: center;
+    }
+    .work-description {
+      padding-top: 25px;
+    }
+  }
+}

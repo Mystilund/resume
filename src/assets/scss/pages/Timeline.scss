@@ -1,4 +1,5 @@
 // container page work
+$timelineLeftMargin: 200px;
 
 .timeline-block {
   height: 75vh;
@@ -12,7 +13,7 @@
   }
 
   .bubble-container {
-    width: 200px;
+    width: $timelineLeftMargin;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -109,6 +110,26 @@
           color: #333;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: $tabletBreakpoint) {
+  .timeline-block .bubble-container {
+    width: $timelineLeftMargin / 2;
+  }
+}
+
+@media screen and (max-width: $mobileBreakpoint) {
+  .timeline-block .right-side-timeline .timeline-informations {
+    &.expanded {
+      left: 0;
+      width: 200px;
+      top: 30px !important;
+    }
+
+    &:after {
+      display: none;
     }
   }
 }

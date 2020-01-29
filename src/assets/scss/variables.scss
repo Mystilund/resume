@@ -2,3 +2,12 @@ $backgroundColor: #282c34;
 $fontColor: #FFF;
 $blueColor: #61dafb;
 $redColor: #CC3333;
+
+$tabletBreakpoint: 1080px;
+$mobileBreakpoint: 780px;
+
+$desktopSize: 300px;
+$tabletSize: 160px;
+
+$desktopCalc: calc(100% - 300px);
+$tabletCalc: calc(100% - 160px);

@@ -14,7 +14,7 @@
   }
 
   .page-content {
-    width: calc(100% - 300px);
+    width: $desktopCalc;
 
     .page-container {
       padding: 20px;
@@ -23,5 +23,21 @@
 
   & > * {
     min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: $tabletBreakpoint) {
+  .app .page-content {
+    width: $tabletCalc;
+  }
+}
+
+@media screen and (max-width: $mobileBreakpoint) {
+  .app {
+    display: block;
+
+    .page-content {
+      width: 100%;
+    }
   }
 }

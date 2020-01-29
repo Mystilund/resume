@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useApp } from '../contexts/AppContext'
 import AnimatedText from '../components/AnimatedText'
@@ -12,13 +12,23 @@ import {
 
 const Navbar = () => {
   const { currentRoute } = useApp()
+  const [isBurgerMenuOpened, updateBurgerMenuState] = useState(false)
 
   const activeClass = (route) => {
     return currentRoute === route ? 'active' : ''
   }
 
+  const toggleMobileMenu = () => {
+    updateBurgerMenuState(!isBurgerMenuOpened)
+  }
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isBurgerMenuOpened ? 'active' : ''}`}>
+      <div className="burger-menu" onClick={toggleMobileMenu}>
+        <div className="burger-line-top"></div>
+        <div className="burger-line-middle"></div>
+        <div className="burger-line-bottom"></div>
+      </div>
       <div className="fixed-container">
         <ul>
           <li className={activeClass(HOME_ROUTE)}>

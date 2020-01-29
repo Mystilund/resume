@@ -68,5 +68,14 @@
       }
     }
   }
+}
 
+@media screen and (max-width: $mobileBreakpoint) {
+  .about-page .skill-block .skill-list .skill-line {
+    display: block;
+
+    .skill-name {
+      display: block;
+    }
+  }
 }
