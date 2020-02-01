@@ -2,14 +2,19 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-page">
       <h3>Am I looking for a new job ?</h3>
-      <p><strong>Yes</strong></p>
-      <p><br /></p>
+      <p className="job-answer">Yes</p>
       <h3>How can you contact me ?</h3>
-      <p>By email <a href="mailto:recrutement.xplx@gmail.com">here</a></p>
-      <p><br /></p>
-      <p>I don't want to give my phone number because... well, I don't want it public and I don't want to be harrased</p>
+      <p className="contact-answer">
+        <span role="img" aria-label="envelope emoji">✉️ </span>
+        <span>By email </span>
+        <a href="mailto:recrutement.xplx@gmail.com">here</a>
+      </p>
+      <p className="resume-link">My resume as PDF can be found <a href="https://drive.google.com/open?id=1wnW7URLW7460oOhbuFxjOJtkacSayIZQ" target="_blank" rel="noopener noreferrer">here</a></p>
+      <p className="phone-disclaimer">
+        <small>I don't want to give my phone number because... well, I don't want it public and I don't want to be harrased</small>
+      </p>
     </div>
   )
 }

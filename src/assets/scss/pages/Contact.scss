@@ -1,0 +1,23 @@
+.contact-page {
+  .job-answer,
+  .contact-answer {
+    color: $blueColor;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+  a {
+    color: $redColor;
+  }
+  .resume-link {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .phone-disclaimer {
+    text-align: center;
+
+    small {
+      font-size: 0.6em;
+    }
+  }
+}

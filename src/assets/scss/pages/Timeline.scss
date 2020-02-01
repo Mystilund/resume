@@ -1,113 +1,135 @@
-// container page work
-$timelineLeftMargin: 200px;
-
-.timeline-block {
-  height: 75vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  &:first-child .bubble-container .bubble:before,
-  &:last-child .bubble-container .bubble:after {
-    display: none;
-  }
-
-  .bubble-container {
-    width: $timelineLeftMargin;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    z-index: 0;
-
-    .bubble {
-      height: 50px;
-      width: 50px;
-      border-radius: 100px;
-      border: 3px solid $blueColor;
-      margin-left: auto;
-      background: white;
+.timeline-page {
+  .timeline-shortcuts {
+    text-align: center;
+    button {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      border: 0;
+      outline: 0;
       cursor: pointer;
-      transition: background 0.25s ease-in-out;
 
       &:hover {
-        background: #333;
-      }
-
-      &:before {
-        position: absolute;
-        content: ' ';
-        top: 0;
-        width: 6px;
-        right: 25px;
-        bottom: 50%;
-        background: #CC3333;
-        z-index: -1;
-      }
-      &:after {
-        position: absolute;
-        content: ' ';
-        top: 50%;
-        width: 6px;
-        right: 25px;
-        bottom: 0;
-        background: #CC3333;
-        z-index: -1;
+        background: #61dafb;
       }
     }
   }
 
-  .right-side-timeline {
-    position: relative;
+  .timeline-feed {
+    .timeline-block {
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
 
-    .timeline-year {
-      font-size: 1.2em;
-      font-weight: bold;
-      color: $blueColor;
-      padding-left: 20px;
-    }
-
-    .timeline-informations {
-      position: absolute;
-      width: 300px;
-      top: 0;
-      left: 100px;
-      transform: scaleY(0);    
-      transform-origin: center;
-      transition: transform 0.26s ease;
-      border: 2px solid $blueColor;
-      padding: 5px 20px;
-      background: $backgroundColor;
-      border-radius: 5px;
-
-      &:after {
-        content: " ";
-        position: absolute;
-        top: calc(50% - 12px);
-        left: -15px;
-        bottom: auto;
-        border-width: 10px 15px 10px 0;
-        border-color: transparent $blueColor;
-        border-style: solid;
-        display: block;
-        width: 0;
+      &:first-child {
+        height: 50vh;
       }
-
-      &.expanded {
-        transform: scaleY(1);
+    
+      &:first-child .bubble-container .bubble:before,
+      &:last-child .bubble-container .bubble:after {
+        display: none;
       }
-
-      .fact-inset {
-        background: white;
-        border: 2px solid #cc3333;
-        margin: 15px 0;
-
-        p {
-          margin: 5px 0;
-          padding: 10px;
-          font-size: 0.8em;
-          color: #333;
+    
+      .bubble-container {
+        width: $timelineLeftMargin;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        z-index: 0;
+    
+        .bubble {
+          height: 50px;
+          width: 50px;
+          border-radius: 100px;
+          border: 3px solid $blueColor;
+          margin-left: auto;
+          background: white;
+          cursor: pointer;
+          transition: background 0.25s ease-in-out;
+    
+          &:hover {
+            background: #333;
+          }
+    
+          &:before {
+            position: absolute;
+            content: ' ';
+            top: 0;
+            width: 6px;
+            right: 25px;
+            bottom: 50%;
+            background: #CC3333;
+            z-index: -1;
+          }
+          &:after {
+            position: absolute;
+            content: ' ';
+            top: 50%;
+            width: 6px;
+            right: 25px;
+            bottom: 0;
+            background: #CC3333;
+            z-index: -1;
+          }
+        }
+      }
+    
+      .right-side-timeline {
+        position: relative;
+    
+        .timeline-year {
+          font-size: 1.2em;
+          font-weight: bold;
+          color: $blueColor;
+          padding-left: 20px;
+        }
+    
+        .timeline-informations {
+          position: absolute;
+          width: 300px;
+          top: 0;
+          left: 100px;
+          transform: scaleY(0);    
+          transform-origin: center;
+          transition: transform 0.26s ease;
+          border: 2px solid $blueColor;
+          padding: 5px 20px;
+          background: $backgroundColor;
+          border-radius: 5px;
+    
+          &:after {
+            content: " ";
+            position: absolute;
+            top: calc(50% - 12px);
+            left: -15px;
+            bottom: auto;
+            border-width: 10px 15px 10px 0;
+            border-color: transparent $blueColor;
+            border-style: solid;
+            display: block;
+            width: 0;
+          }
+    
+          &.expanded {
+            transform: scaleY(1);
+          }
+    
+          .fact-inset {
+            background: white;
+            border: 2px solid #cc3333;
+            margin: 15px 0;
+    
+            p {
+              margin: 5px 0;
+              padding: 10px;
+              font-size: 0.8em;
+              color: #333;
+            }
+          }
         }
       }
     }
@@ -115,13 +137,13 @@ $timelineLeftMargin: 200px;
 }
 
 @media screen and (max-width: $tabletBreakpoint) {
-  .timeline-block .bubble-container {
+  .timeline-page .timeline-feed .timeline-block .bubble-container {
     width: $timelineLeftMargin / 2;
   }
 }
 
 @media screen and (max-width: $mobileBreakpoint) {
-  .timeline-block .right-side-timeline .timeline-informations {
+  .timeline-page .timeline-feed .timeline-block .right-side-timeline .timeline-informations {
     &.expanded {
       left: 0;
       width: 200px;
