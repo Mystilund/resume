@@ -26,6 +26,10 @@
       {
         "label": "Yeoman",
         "link": "https://yeoman.io/"
+      },
+      {
+        "label": "Typescript",
+        "link": "https://www.typescriptlang.org/"
       }
     ]
   },
