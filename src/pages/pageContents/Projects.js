@@ -3,12 +3,19 @@ import Work from '../../blocks/Work'
 import olst from '../../assets/images/olst.png'
 import kimple from '../../assets/images/kimple.png'
 import etix from '../../assets/images/etix.jpg'
+import simplifield from '../../assets/images/simplifield.png'
 import lundorg from '../../assets/images/lundorg.png'
 
 const Projects = () => {
   return (
     <div className="project-container">
       <h2>Current work</h2>
+      <Work title="Simplifield" img={simplifield}>
+        <p>Coming soon... (July 2020)</p>
+        <p className="work-date">2020</p>
+      </Work>
+      <hr />
+      <h2>Previous work</h2>
       <Work title="OliverStore" img={olst}>
         <p>Oliverstore is an e-commerce company. The main website is stores-discount.com</p>
         <p>Because the business is based on custom product, a simple e-commerce solution like Magento is not possible, so everything was build based on modern technolgies</p>
@@ -24,8 +31,6 @@ const Projects = () => {
         </ul>
         <p className="work-date">2017-2020</p>
       </Work>
-      <hr />
-      <h2>Previous work</h2>
       <Work title="Cassiop" img={kimple}>
         <p>Cassiop is a company which powered a solution named Kimple.</p>
         <p>Kimple is a platform where you can configure a contest to promote a product or to increase you audience.</p>
@@ -66,7 +71,7 @@ const Projects = () => {
           <li><a href="https://github.com/Lund-Org/cherry-sequelize-connector" target="_blank" rel="noopener noreferrer">Cherry Sequelize Connector</a></li>
         </ul>
         <p>And of course a framework needs to come with a documentation which can be found <a href="https://github.com/Lund-Org/cherry-documentation" target="_blank" rel="noopener noreferrer">here</a> (WIP)</p>
-        <h3><a href="https://github.com/Lund-Org/discord-bot" target="_blank" rel="noopener noreferrer">Bot Discord</a></h3>
+        <h3><a href="https://github.com/Lund-Org/discord-bot" target="_blank" rel="noopener noreferrer">Discord Bot</a></h3>
         <p>I needed a discord bot, so I created one. At the same time, I had to learn Typescript, so it was the right moment to do it.</p>
         <h3><a href="https://github.com/Lund-Org/twitch-get-events" target="_blank" rel="noopener noreferrer">Twitch Get Events</a></h3>
         <p>This library was the first project of the organization made with another contributor. Back in time, Twitch had an event system that could be used to create a calendar. This feature has been removed, so this library can't be used anymore and the repository has been archived.</p>

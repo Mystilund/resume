@@ -54,8 +54,8 @@ const Home = () => {
           <span role="img" aria-label="coffee emoji">✈</span>
         </p>
         <div className="looking-for" style={animationState[4]}>
-          <p>I'm looking for a job in a modern Javascript Stack</p>
-          <p>I <u>hate</u> Java, I like Ruby, I can use PHP but it's not what I prefer</p>
+          <p>I'm <strong>not</strong> looking for a job anymore</p>
+          <p>I love modern Javascript, I <u>hate</u> Java, I like Ruby, I can use PHP but it's not what I prefer</p>
         </div>
         <p style={animationState[5]} className="text-centered brand-links">
           <a href="https://www.github.com/mystilund/" target="_blank" rel="noopener noreferrer">
