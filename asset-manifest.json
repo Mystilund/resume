@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.f0febbdd.chunk.css",
-    "main.js": "/resume/static/js/main.3a7ca5f0.chunk.js",
-    "main.js.map": "/resume/static/js/main.3a7ca5f0.chunk.js.map",
+    "main.css": "/resume/static/css/main.17c41d85.chunk.css",
+    "main.js": "/resume/static/js/main.18846d8d.chunk.js",
+    "main.js.map": "/resume/static/js/main.18846d8d.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.8997ea85.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.8997ea85.js.map",
-    "static/js/2.3062b49a.chunk.js": "/resume/static/js/2.3062b49a.chunk.js",
-    "static/js/2.3062b49a.chunk.js.map": "/resume/static/js/2.3062b49a.chunk.js.map",
+    "static/js/2.4169a5b0.chunk.js": "/resume/static/js/2.4169a5b0.chunk.js",
+    "static/js/2.4169a5b0.chunk.js.map": "/resume/static/js/2.4169a5b0.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.29dbd1d07fad915b42342d50ce338454.js": "/resume/precache-manifest.29dbd1d07fad915b42342d50ce338454.js",
+    "precache-manifest.b8612416e546215bb64d856c5237f66f.js": "/resume/precache-manifest.b8612416e546215bb64d856c5237f66f.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.f0febbdd.chunk.css.map": "/resume/static/css/main.f0febbdd.chunk.css.map",
-    "static/js/2.3062b49a.chunk.js.LICENSE": "/resume/static/js/2.3062b49a.chunk.js.LICENSE",
+    "static/css/main.17c41d85.chunk.css.map": "/resume/static/css/main.17c41d85.chunk.css.map",
+    "static/js/2.4169a5b0.chunk.js.LICENSE": "/resume/static/js/2.4169a5b0.chunk.js.LICENSE",
     "static/media/etix.jpg": "/resume/static/media/etix.1643d30a.jpg",
     "static/media/kimple.png": "/resume/static/media/kimple.606d408d.png",
     "static/media/lundorg.png": "/resume/static/media/lundorg.41d4caaa.png",
     "static/media/olst.png": "/resume/static/media/olst.a009cb44.png",
-    "static/media/profile.png": "/resume/static/media/profile.1443059b.png"
+    "static/media/profile.png": "/resume/static/media/profile.1443059b.png",
+    "static/media/simplifield.jpg": "/resume/static/media/simplifield.f43729db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8997ea85.js",
-    "static/js/2.3062b49a.chunk.js",
-    "static/css/main.f0febbdd.chunk.css",
-    "static/js/main.3a7ca5f0.chunk.js"
+    "static/js/2.4169a5b0.chunk.js",
+    "static/css/main.17c41d85.chunk.css",
+    "static/js/main.18846d8d.chunk.js"
   ]
 }
