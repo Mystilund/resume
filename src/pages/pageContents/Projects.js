@@ -3,7 +3,7 @@ import Work from '../../blocks/Work'
 import olst from '../../assets/images/olst.png'
 import kimple from '../../assets/images/kimple.png'
 import etix from '../../assets/images/etix.jpg'
-import simplifield from '../../assets/images/simplifield.png'
+import simplifield from '../../assets/images/simplifield.jpg'
 import lundorg from '../../assets/images/lundorg.png'
 
 const Projects = () => {
@@ -11,8 +11,8 @@ const Projects = () => {
     <div className="project-container">
       <h2>Current work</h2>
       <Work title="Simplifield" img={simplifield}>
-        <p>Coming soon... (July 2020)</p>
-        <p className="work-date">2020</p>
+        <p>Currently working in Simplifield</p>
+        <p className="work-date">2020 - now</p>
       </Work>
       <hr />
       <h2>Previous work</h2>
