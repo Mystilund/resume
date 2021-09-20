@@ -17,6 +17,7 @@
       }
 
       img {
+        max-width: 500px;
         opacity: 0.3;
         transition: opacity 0.3s linear;
       }
@@ -41,6 +42,7 @@
       padding-right: 20px;
 
       .work-date {
+        font-weight: bold;
         text-align: right;
       }
     }

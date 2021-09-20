@@ -1,36 +1,22 @@
 import React from 'react'
-import TimelineBlock from '../../blocks/TimelineBlock'
+import { Chrono } from 'react-chrono'
 import timelineData from '../../assets/static-datas/timeline.json'
 
 const Timeline = () => {
-  const scrollToYear = (year) => {
-    return () => {
-      const htmlElement = document.querySelector(`#timeline-${year}`)
-
-      if (htmlElement) {
-        htmlElement.scrollIntoView({
-          behavior: 'smooth'
-        })
-      }
-    }
-  }
-
-  const generateShortcuts = () => {
-    return timelineData.map((timeline, index) => {
-      return <button type="button" key={index} onClick={scrollToYear(timeline.year)}>{timeline.year}</button>
+  const items = timelineData.reduce((acc, timeline) => {
+    timeline.facts.forEach((t) => {
+      acc.push({
+        title: timeline.year,
+        cardDetailedText: t.texts.map((text) => <>{text}<br /></>)
+      })
     })
-  }
 
-  const generateTimelines = () => {
-    return timelineData.map((timeline, index) => {
-      return <TimelineBlock timeline={timeline} key={index} />
-    })
-  }
+    return acc;
+  }, [])
 
   return (
-    <div className="timeline-page">
-      <div className="timeline-shortcuts">{generateShortcuts()}</div>
-      <div className="timeline-feed">{generateTimelines()}</div>
+    <div>
+      <Chrono items={items} mode="VERTICAL_ALTERNATING" hideControls={true} useReadMore={false} />
     </div>
   )
 }
