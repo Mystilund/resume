@@ -4,24 +4,52 @@
     "rank": 5,
     "technos": [
       {
+        "title": "Frontend",
+        "link": null
+      },
+      {
         "label": "React",
         "link": "https://reactjs.org/"
-      },
-      {
-        "label": "Mocha (+ nyc)",
-        "link": "https://mochajs.org/"
-      },
-      {
-        "label": "Hapi",
-        "link": "https://hapi.dev/"
       },
       {
         "label": "VueJS",
         "link": "https://vuejs.org/"
       },
       {
+        "comment": "I also know AngularJS, but I don't want to use this technologies, neither VueJS. I prefer React and I'm better with it",
+        "link": null
+      },
+      {
+        "title": "Backend",
+        "link": null
+      },
+      {
+        "label": "Hapi",
+        "link": "https://hapi.dev/"
+      },
+      {
         "label": "Express",
         "link": "https://expressjs.com/"
+      },
+      {
+        "label": "NextJS (a bit)",
+        "link": "https://nextjs.org/"
+      },
+      {
+        "label": "NestJs (a bit)",
+        "link": "https://nestjs.com/"
+      },
+      {
+        "title": "Tools",
+        "link": null
+      },
+      {
+        "label": "Jest",
+        "link": "https://jestjs.io/"
+      },
+      {
+        "label": "Mocha (+ nyc)",
+        "link": "https://mochajs.org/"
       },
       {
         "label": "Yeoman",
@@ -30,6 +58,18 @@
       {
         "label": "Typescript",
         "link": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Other",
+        "link": null
+      },
+      {
+        "label": "React Native (a bit)",
+        "link": "https://reactnative.dev/"
+      },
+      {
+        "label": "Styled component (a bit)",
+        "link": "https://styled-components.com/"
       }
     ]
   },
@@ -66,7 +106,7 @@
         "link": "https://fr.wikipedia.org/wiki/Site_web_r%C3%A9actif"
       },
       {
-        "label": "And I love ergonomy and accessibility, to make a better web",
+        "comment": "And I love ergonomy and accessibility, to make a better web",
         "link": null
       }
     ]
@@ -86,20 +126,10 @@
       {
         "label": "Sylius",
         "link": "https://sylius.com/"
-      }
-    ]
-  },
-  {
-    "label": "Ruby",
-    "rank": 3,
-    "technos": [
-      {
-        "label": "Rake",
-        "link": "https://github.com/ruby/rake"
       },
       {
-        "label": "Ruby On Rails",
-        "link": "https://rubyonrails.org/"
+        "comment": "I'm not interested with the PHP anymore",
+        "link": null
       }
     ]
   },
@@ -134,6 +164,10 @@
         "link": "https://jenkins.io/"
       },
       {
+        "label": "CircleCI",
+        "link": "https://circleci.com/"
+      },
+      {
         "label": "CodeClimate Quality",
         "link": "https://codeclimate.com/quality/"
       }
@@ -158,6 +192,24 @@
       {
         "label": "UML",
         "link": "https://en.wikipedia.org/wiki/Unified_Modeling_Language"
+      }
+    ]
+  },
+  {
+    "label": "Other languages or tools",
+    "rank": 2,
+    "technos": [
+      {
+        "label": "Ruby - Rake",
+        "link": "https://github.com/ruby/rake"
+      },
+      {
+        "label": "Ruby On Rails",
+        "link": "https://rubyonrails.org/"
+      },
+      {
+        "label": "C# - Unity",
+        "link": "https://unity.com/"
       }
     ]
   },

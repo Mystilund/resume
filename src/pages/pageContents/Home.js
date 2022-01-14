@@ -27,16 +27,16 @@ const Home = () => {
     <div className="home-page">
       <div className="pre-title">Hi, my name is</div>
       <h1 style={animationState[0]}>Florian Dewulf.</h1>
-      <h2 style={animationState[1]}>I type on a black screen and it makes beautiful things in your browser</h2>
+      <h2 style={animationState[1]}>Fullstack Web Developper, +6 years of web development</h2>
       <div className="home-description">
         <p style={animationState[2]}>
-          <span>I'm a `Fullstack Web Developper` based in Lille </span>
+          <span>I'm based in Lille </span>
           <span role="img" aria-label="umbrella emoji">☔</span>
         </p>
         <p style={animationState[3]}>
           <span>I </span>
           <span role="img" aria-label="love">💙</span>
-          <span> JS (node, React...), Docker </span>
+          <span> JS/TS (node, React...), Docker </span>
           <span role="img" aria-label="whale emoji">🐳</span>
           <span>, Windows </span>
           <span role="img" aria-label="computer emoji">💻</span>
@@ -54,8 +54,8 @@ const Home = () => {
           <span role="img" aria-label="coffee emoji">✈</span>
         </p>
         <div className="looking-for" style={animationState[4]}>
-          <p>I'm <strong>not</strong> looking for a job anymore</p>
-          <p>I love modern Javascript, I <u>hate</u> Java, I like Ruby, I can use PHP but it's not what I prefer</p>
+          <p>I'm looking for a job (Full remote if possible)</p>
+          <p>I love modern Javascript (especially React) and working on a product useful with an impact (I hate bullshit marketing products)</p>
         </div>
         <p style={animationState[5]} className="text-centered brand-links">
           <a href="https://www.github.com/mystilund/" target="_blank" rel="noopener noreferrer">

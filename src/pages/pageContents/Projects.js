@@ -29,15 +29,17 @@ const Projects = () => {
         <p>Oliverstore is an e-commerce company. The main website is stores-discount.com</p>
         <p>Because the business is based on custom product, a simple e-commerce solution like Magento is not possible, so everything was build based on modern technolgies</p>
         <p>The IT stack is built thanks to Sylius (PHP)), microservices made with Hapi (Node), the front uses React and Vue, and everything is working on a SOA design, running on AWS (EC2, Beanstalk, RDS, ECR...)</p>
-        <p>I worked on the website (front or back) and the back microservices. Here is some examples of what I did :</p>
-        <ul>
-          <li>A lot on admin tools like the management of the categories, the advice pages, tools for promotions (Sylius, React)</li>
-          <li>The front of the user account (Vue, React)</li>
-          <li>I initiated the transition to the responsive design (HTML/CSS)</li>
-          <li>The payment microservice or the input help suggestion microservice (Hapi)</li>
-          <li>Some SEO optimization</li>
-          <li>...</li>
-        </ul>
+        <div>
+          <p>I worked on the website (front or back) and the back microservices. Here is some examples of what I did :</p>
+          <ul>
+            <li>A lot on admin tools like the management of the categories, the advice pages, tools for promotions (Sylius, React)</li>
+            <li>The front of the user account (Vue, React)</li>
+            <li>I initiated the transition to the responsive design (HTML/CSS)</li>
+            <li>The payment microservice or the input help suggestion microservice (Hapi)</li>
+            <li>Some SEO optimization</li>
+            <li>...</li>
+          </ul>
+        </div>
         <p className="work-date">2017-2020</p>
       </Work>
       <Work title="Cassiop" img={kimple}>
@@ -72,15 +74,19 @@ const Projects = () => {
         <h3><a href="https://github.com/Lund-Org/discord-bot" target="_blank" rel="noopener noreferrer">Discord Bot</a></h3>
         <p>I needed a discord bot, so I created one. At the same time, I had to learn Typescript, so it was the right moment to do it.</p>
         <p>This discord bot also includes a text based gacha game with cards and a Twitch link to retrieve Twitch rewards.</p>
+        <h3><a href="https://lundprod.com" target="_blank" rel="noopener noreferrer">LundProd.com</a></h3>
+        <p>For the gacha game described above for the bot, I also needed a way to display easily cards & rankings. The code is in the same repo of the bot.</p>
         <h3><a href="https://github.com/Lund-Org/cherry" target="_blank" rel="noopener noreferrer">Cherry <span role="img" aria-label="cherry emoji">🍒</span></a></h3>
         <p>I made a node Framework from scratch. It is a very light framework which was built to match with every needs and where you can add plugins if you need more features. I didn't like the idea of some framework to provide a lot of tools but you don't it, and Cherry was made to solve this issue.</p>
-        <p>As said, there are plugins you can add to Cherry, here are some basic features I provided :</p>
-        <ul>
-          <li><a href="https://github.com/Lund-Org/cherry-handlebars-connector" target="_blank" rel="noopener noreferrer">Cherry Handlebars Connector</a></li>
-          <li><a href="https://github.com/Lund-Org/cherry-pug-connector" target="_blank" rel="noopener noreferrer">Cherry Pug Connector</a></li>
-          <li><a href="https://github.com/Lund-Org/cherry-typeorm-connector" target="_blank" rel="noopener noreferrer">Cherry TypeORM Connector</a></li>
-          <li><a href="https://github.com/Lund-Org/cherry-sequelize-connector" target="_blank" rel="noopener noreferrer">Cherry Sequelize Connector</a></li>
-        </ul>
+        <div className="clearfix">
+          <p>As said, there are plugins you can add to Cherry, here are some basic features I provided :</p>
+          <ul>
+            <li><a href="https://github.com/Lund-Org/cherry-handlebars-connector" target="_blank" rel="noopener noreferrer">Cherry Handlebars Connector</a></li>
+            <li><a href="https://github.com/Lund-Org/cherry-pug-connector" target="_blank" rel="noopener noreferrer">Cherry Pug Connector</a></li>
+            <li><a href="https://github.com/Lund-Org/cherry-typeorm-connector" target="_blank" rel="noopener noreferrer">Cherry TypeORM Connector</a></li>
+            <li><a href="https://github.com/Lund-Org/cherry-sequelize-connector" target="_blank" rel="noopener noreferrer">Cherry Sequelize Connector</a></li>
+          </ul>
+        </div>
         <p>And of course a framework needs to come with a documentation which can be found <a href="https://github.com/Lund-Org/cherry-documentation" target="_blank" rel="noopener noreferrer">here</a></p>
         <p>The project has been archived, it was mainly something made to learn than being used for real.</p>
         <h3><a href="https://github.com/Lund-Org/twitch-get-events" target="_blank" rel="noopener noreferrer">Twitch Get Events</a></h3>
@@ -89,7 +95,9 @@ const Projects = () => {
         <p>This project is separated in multiple apps. The idea behind it is to compete with the Streamdeck of Elgato with a free alternative solution.</p>
         <p>Everybody has a smartphone, so why not use it instead of the streamdeck to press buttons and interact with your stream ?</p>
         <p>The project was never finished and has been cancelled because the solution already exists : <a href="https://www.touch-portal.com/" target="_blank" rel="noopener noreferrer">Touch Portal</a>.</p>
-        <p className="work-date">2018-2020</p>
+        <br />
+        <p>Not in the organisation but on my own Github, I have some schools projects and other stuff not important. I also have a poc made in React-native in one afternoon to test the technology. You can find it <a href="https://github.com/Mystilund/weather-app" target="_blank" rel="noopener noreferrer">here</a></p>
+        <p className="work-date">2018-{new Date().getFullYear()}</p>
       </Work>
     </div>
   )

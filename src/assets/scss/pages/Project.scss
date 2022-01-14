@@ -1,7 +1,18 @@
 .project-container {
   .work-block {
-    display: flex;
     margin-bottom: 40px;
+
+    &::after, .clearfix {
+      display: block;
+      content: "";
+      clear: both;
+    }
+
+    .floating-wrapper {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 50px;
+    }
 
     .img-work-block {
       position: relative;

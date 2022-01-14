@@ -59,12 +59,17 @@
       width: 400px;
 
       .techno-list {
+        overflow: auto;
         width: 100%;
         background: darken($backgroundColor, 5);
         font-size: 0.8em;
         padding: 1px 20px;// the 1px is to not have issue with the margin of the p tags
         box-sizing: border-box;
         height: 100%;
+
+        .skill-comment {
+          font-size: 12px;
+        }
       }
     }
   }
