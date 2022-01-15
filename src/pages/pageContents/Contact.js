@@ -11,7 +11,7 @@ const Contact = () => {
         <span>By email </span>
         <a href="mailto:recrutement.xplx@gmail.com">here</a>
       </p>
-      <p className="resume-link">My resume as PDF can be found <a href="https://drive.google.com/open?id=1wnW7URLW7460oOhbuFxjOJtkacSayIZQ" target="_blank" rel="noopener noreferrer">here</a></p>
+      <p className="resume-link">My resume as PDF can be found <a href="https://drive.google.com/file/d/1RVYHJtH7HW8jeaqgdoVVDtVTMAbvshHB/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a></p>
       <p className="phone-disclaimer">
         <small>I don't want to give my phone number because... well, I don't want it public and I don't want to be harrased</small>
       </p>
