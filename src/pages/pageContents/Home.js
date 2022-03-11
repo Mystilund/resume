@@ -54,7 +54,7 @@ const Home = () => {
           <span role="img" aria-label="coffee emoji">✈</span>
         </p>
         <div className="looking-for" style={animationState[4]}>
-          <p>I'm looking for a job (Full remote if possible)</p>
+          <p>I'm <strong>NOT</strong> looking for a job</p>
           <p>I love modern Javascript (especially React) and working on a product useful with an impact (I hate bullshit marketing products)</p>
         </div>
         <p style={animationState[5]} className="text-centered brand-links">

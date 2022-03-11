@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <h3>Am I looking for a new job ?</h3>
-      <p className="job-answer">Yes</p>
+      <p className="job-answer">No</p>
       <h3>How can you contact me ?</h3>
       <p className="contact-answer">
         <span role="img" aria-label="envelope emoji">✉️ </span>
